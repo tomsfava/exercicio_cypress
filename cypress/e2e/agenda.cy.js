@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('template spec', () => {
+describe('Testando funcionalidades da agenda de contatos', () => {
   beforeEach(() => {
     cy.visit('https://agenda-contatos-react.vercel.app/')
     cy.get('.sc-beqWaB.eQdhbg.contato').its('length').as('qtde')
